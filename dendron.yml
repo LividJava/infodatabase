@@ -90,11 +90,12 @@ publishing:
         - root
     writeStubs: false
     siteRootDir: docs
+    siteUrl: https://infodb.lividjava.xyz
     seo:
-        title: Dendron
+        title: Java's Database
         description: Personal Knowledge Space
     github:
-        enableEditLink: true
+        enableEditLink: false
         editLinkText: Edit this page on GitHub
         editBranch: main
         editViewMode: tree
