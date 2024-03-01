@@ -2,7 +2,7 @@
 id: l849hbnootquv8to4g2omse
 title: Update the Modpack
 desc: ''
-updated: 1709273616368
+updated: 1709274552088
 created: 1682135190123
 ---
 This guide will cover Updating the modpack on Prism and ATLauncher!
@@ -15,7 +15,7 @@ First up Click on "Edit", either by selecting the Pack Icon and clicking "Edit",
 ![](./assets/images/2024-03-01-00-13-16.png)
 
 Then from there, click on the "Modrinth" Tab!
-![](./assets/images/2023-04-21-23-54-32.png)
+![](./assets/images/2024-03-01-01-28-49.png)
 
 Lastly, click "Update Pack" and you're up and running!
 ![](./assets/images/2024-03-01-00-21-03.png)

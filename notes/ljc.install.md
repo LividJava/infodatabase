@@ -2,7 +2,7 @@
 id: 58j9dmu743w7r68zdh3ws7r
 title: Installing the Modpack
 desc: ''
-updated: 1709273671568
+updated: 1709274329389
 created: 1709268885763
 ---
 This will guide you onto installing the modpack and joining the server!
@@ -16,7 +16,7 @@ I'm assuming the following things.
 First you're going to click on "Add Instance"
 ![](./assets/images/2024-03-01-00-02-02.png)
 
-From there you're going to select "Modrinth" from the Right hand sidebar.
+From there you're going to select "Modrinth" from the Left-hand sidebar.
 ![](./assets/images/2024-03-01-00-03-16.png)
 
 In the Search Bar, type in "LividJava's Create" and click "Search".
