@@ -2,7 +2,7 @@
 id: 49grjyq7cb7ywggv6kepdnx
 title: Installing Java 17
 desc: ''
-updated: 1709272616276
+updated: 1709273754841
 created: 1709270485340
 ---
 This guide will show you how to install Java 17 on a Windows Machine (if you're using Mac I cannot help. If you're using Linux, you already know what to do).
@@ -18,10 +18,10 @@ While screenshots will be from Windows 10, I will also add information about Win
 First we want to see if you *actually have* Java installed.
 
 Right-Click the Start Menu button and select "Windows Powershell"
-![](2024-03-01-00-37-20.png)
+![](assets/images/2024-03-01-00-37-20.png)
 
 Next, in the window that opens type in `java -version` and press <kbd>Enter</kbd>
-![](2024-03-01-00-38-35.png)
+![](assets/images/2024-03-01-00-38-35.png)
 
 It should spit out the following information
 ```
@@ -38,13 +38,13 @@ If from the above section you have the incorrect version of Java we need to down
 First download this [Ninite Installer](https://ninite.com/adoptjavax17/).
 
 Then press the big blue "Download Installer" button.
-![](2024-03-01-00-44-19.png)
+![](./assets/images/2024-03-01-00-44-19.png)
 
 After it downloads, open the installer and let it do its thing.
-![](2024-03-01-00-45-53.png)
+![](./assets/images/2024-03-01-00-45-53.png)
 
 It will automatically install and setup Java 17 for you, when finished it will appear as so:
-![](2024-03-01-00-46-43.png)
+![](./assets/images/2024-03-01-00-46-43.png)
 
 You can click close and move on to setting up for Prism.
 
@@ -52,12 +52,12 @@ You can click close and move on to setting up for Prism.
 We've installed the correct version of Java, now we need to let Prism Launcher know where it is.
 
 First, Click on "Settings" in the Top Bar.
-![](2024-03-01-00-52-46.png)
+![](./assets/images/2024-03-01-00-52-46.png)
 
 Then click on "Java" > "Auto-Detect"
-![](2024-03-01-00-54-35.png)
+![](./assets/images/2024-03-01-00-54-35.png)
 
 From there, Select "17.0.10" and press "OK" (Usually it's the version with the "⭐" )
-![](2024-03-01-00-55-53.png)
+![](./assets/images/2024-03-01-00-55-53.png)
 
 After that, Close the settings window and Launch your game!
