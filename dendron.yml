@@ -94,7 +94,7 @@ publishing:
     siteUrl: https://infodb.lividjava.xyz
     seo:
         title: Java's Database
-        description: Personal Knowledge Space
+        description: A collection of information created by a 🦝 with a 🔧
     github:
         enableEditLink: false
         editLinkText: Edit this page on GitHub
