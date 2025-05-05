@@ -1,0 +1,35 @@
+<h1 id="spark-profiler"><a aria-hidden="true" class="anchor-heading icon-link" href="#spark-profiler"></a>Spark Profiler</h1>
+<p>If you're experiencing lag in this modpack, this is a guide on how to pinpoint the lag (or at the very least help me help you.)</p>
+<p>If it isn't already. Close your game and install <a href="https://spark.lucko.me">Spark</a>. You can test to see if it's installed by running <code>/sparkc</code> in-game, if it returns command not found, you need to install it.</p>
+<h2 id="finding-lag"><a aria-hidden="true" class="anchor-heading icon-link" href="#finding-lag"></a>Finding Lag</h2>
+<p>After installing Spark we need to determine a few things. Firstly, how long our lag spikes last, and then we can profile our game to actually find the source of the problem.</p>
+<h3 id="1-monitoring-ticks"><a aria-hidden="true" class="anchor-heading icon-link" href="#1-monitoring-ticks"></a>1. Monitoring Ticks</h3>
+<p>First up we need to start our Tick monitor. Achieve this by running <code>/sparkc tickmonitor</code></p>
+<p><img src="/./assets/images/2023-04-21-23-29-28.png"></p>
+<p><img src="/./assets/images/2023-04-21-23-30-30.png">
+After the Initial analysis completes you may find some issues about GC, you can ignore this for now. Java's Garbage collector is... Garbage... We are looking for a HUGE spike in ticks.</p>
+<p><img src="/./assets/images/2023-04-21-23-33-13.png">
+This is a pretty Sizeable spike! so much so it kicked me from the server! (hence the dimmed screenshot)</p>
+<p>Now we can run our profiler to try and find the actual source of the lag!</p>
+<h3 id="2-profiling-the-game"><a aria-hidden="true" class="anchor-heading icon-link" href="#2-profiling-the-game"></a>2. Profiling the Game</h3>
+<p>Now that we have some numbers we'll try and only capture the major spikes! First we need to take the lowest large spike, round it down to the nearest 50 and then start profiling it!</p>
+<p>In the case above, our lowest significant spike was 106.76ms, so we'll round it down to 100</p>
+<p><img src="/./assets/images/2023-04-21-23-38-24.png">
+<img src="/./assets/images/2023-04-21-23-38-51.png"></p>
+<p>Now our profiler is running, When any spike happens over 100ms it will be captured in our profiler! We want to try and recreate the lag as best we can (while avoiding a crash!).</p>
+<p>After we re-produce our spike, we can run <code>/sparkc profiler stop</code>
+<img src="/./assets/images/2023-04-21-23-42-05.png"></p>
+<p>And our report will be generated!
+<img src="/./assets/images/2023-04-21-23-42-25.png"></p>
+<p>While we're at it let's also disable the tickmonitor
+<img src="/./assets/images/2023-04-21-23-43-14.png"></p>
+<p>Now we just click the link, and either open in browser to view it or copy to clipboard to throw at Java.
+<img src="/./assets/images/2023-04-21-23-44-11.png"></p>
+<p>Examining the Profiler report is out of scope for this guide! You can instead follow the documentation from the <a href="https://spark.lucko.me/docs/Using-the-viewer">Spark page!</a></p>
+<p>This guide was mostly derived from the Spark documentation anyway. Just in a more verbose manner.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/11v7y4rd2yew42mm3atk766">LividJava's Create</a></li>
+<li><a href="/notes/58j9dmu743w7r68zdh3ws7r">Installing the Modpack</a></li>
+</ul>
