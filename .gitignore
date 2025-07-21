@@ -1,6 +1,6 @@
-node_modules
+.next
 .dendron.*
 build
 seeds
-.next
+node_modules
 pods/service-connections
