@@ -2,7 +2,7 @@
 id: 11v7y4rd2yew42mm3atk766
 title: LividJava's Create
 desc: 'A category for LJC related things.'
-updated: 1682134063295
+updated: 1746472872642
 created: 1682130918651
 ---
 This is the category for everything related to LividJava's Create the modpack created by Java.
