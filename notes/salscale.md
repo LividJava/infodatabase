@@ -2,9 +2,8 @@
 id: zz475xfe9354uf3cvgu5yew
 title: Sal Scale
 desc: ''
-updated: 1753077292326
+updated: 1753078319405
 created: 1753075431843
-canonicalUrl: salscale
 ---
 <font color="red">Disclaimer</font>  
 The information on this page is mostly for entertainment. You should absolutely use the scale because decimals are dumb. But its made in good fun
