@@ -1,0 +1,183 @@
+{
+  "roots": [
+    {
+      "key": "8x3wnpiw1n98nzo4b6rqgfm",
+      "title": "Linux Streaming/Tools",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "info",
+      "children": [
+        {
+          "key": "9rlcwg26jwyu2n3ld096ql1",
+          "title": "Deckboard",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "info",
+          "children": []
+        },
+        {
+          "key": "scp19tushbj6e9g4ugi2ngr",
+          "title": "Firebot",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "info",
+          "children": []
+        },
+        {
+          "key": "2w5fieptwlf1nn0kt22k6ec",
+          "title": "Wayland",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "info",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "11v7y4rd2yew42mm3atk766",
+      "title": "LividJava's Create",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "info",
+      "children": [
+        {
+          "key": "58j9dmu743w7r68zdh3ws7r",
+          "title": "Installing the Modpack",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "info",
+          "children": []
+        },
+        {
+          "key": "wi6q59zkivy4h3n4aq88r0o",
+          "title": "Spark Profiler",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "info",
+          "children": []
+        },
+        {
+          "key": "l849hbnootquv8to4g2omse",
+          "title": "Update the Modpack",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "info",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "vybdzd0m847pavn5b3acc5g",
+      "title": "Meta",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "info",
+      "children": [
+        {
+          "key": "49grjyq7cb7ywggv6kepdnx",
+          "title": "Installing Java 17",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "info",
+          "children": []
+        },
+        {
+          "key": "v05ffrbq2wejpe6ye3tfcgq",
+          "title": "Installing R2ModManager",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "info",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "4gd2597fi4hc5ftx3t4w0o4",
+      "title": "Magical Webcomic Alliance Hub",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "info",
+      "children": [
+        {
+          "key": "ci7zojhu2h4ch8gh4cigxo3",
+          "title": "Claims",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "info",
+          "children": []
+        },
+        {
+          "key": "dh3ls48cyyis4uc14l1z5bu",
+          "title": "Custom Portals",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "info",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "o3qg0g31qwt9zdc1anfhn9v",
+      "title": "Racc Pack",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "info",
+      "children": [
+        {
+          "key": "gg8dpqrrnhau3g41ixtxcv9",
+          "title": "Installing the Racc Pack",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "info",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "zz475xfe9354uf3cvgu5yew",
+      "title": "Sal Scale",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "info",
+      "children": []
+    }
+  ],
+  "child2parent": {
+    "8x3wnpiw1n98nzo4b6rqgfm": null,
+    "9rlcwg26jwyu2n3ld096ql1": "8x3wnpiw1n98nzo4b6rqgfm",
+    "scp19tushbj6e9g4ugi2ngr": "8x3wnpiw1n98nzo4b6rqgfm",
+    "2w5fieptwlf1nn0kt22k6ec": "8x3wnpiw1n98nzo4b6rqgfm",
+    "11v7y4rd2yew42mm3atk766": null,
+    "58j9dmu743w7r68zdh3ws7r": "11v7y4rd2yew42mm3atk766",
+    "wi6q59zkivy4h3n4aq88r0o": "11v7y4rd2yew42mm3atk766",
+    "l849hbnootquv8to4g2omse": "11v7y4rd2yew42mm3atk766",
+    "vybdzd0m847pavn5b3acc5g": null,
+    "49grjyq7cb7ywggv6kepdnx": "vybdzd0m847pavn5b3acc5g",
+    "v05ffrbq2wejpe6ye3tfcgq": "vybdzd0m847pavn5b3acc5g",
+    "4gd2597fi4hc5ftx3t4w0o4": null,
+    "ci7zojhu2h4ch8gh4cigxo3": "4gd2597fi4hc5ftx3t4w0o4",
+    "dh3ls48cyyis4uc14l1z5bu": "4gd2597fi4hc5ftx3t4w0o4",
+    "o3qg0g31qwt9zdc1anfhn9v": null,
+    "gg8dpqrrnhau3g41ixtxcv9": "o3qg0g31qwt9zdc1anfhn9v",
+    "zz475xfe9354uf3cvgu5yew": null
+  },
+  "notesLabelById": {
+    "8x3wnpiw1n98nzo4b6rqgfm": "Linux Streaming/Tools",
+    "9rlcwg26jwyu2n3ld096ql1": "Deckboard",
+    "scp19tushbj6e9g4ugi2ngr": "Firebot",
+    "2w5fieptwlf1nn0kt22k6ec": "Wayland",
+    "11v7y4rd2yew42mm3atk766": "LividJava's Create",
+    "58j9dmu743w7r68zdh3ws7r": "Installing the Modpack",
+    "wi6q59zkivy4h3n4aq88r0o": "Spark Profiler",
+    "l849hbnootquv8to4g2omse": "Update the Modpack",
+    "vybdzd0m847pavn5b3acc5g": "Meta",
+    "49grjyq7cb7ywggv6kepdnx": "Installing Java 17",
+    "v05ffrbq2wejpe6ye3tfcgq": "Installing R2ModManager",
+    "4gd2597fi4hc5ftx3t4w0o4": "Magical Webcomic Alliance Hub",
+    "ci7zojhu2h4ch8gh4cigxo3": "Claims",
+    "dh3ls48cyyis4uc14l1z5bu": "Custom Portals",
+    "o3qg0g31qwt9zdc1anfhn9v": "Racc Pack",
+    "gg8dpqrrnhau3g41ixtxcv9": "Installing the Racc Pack",
+    "zz475xfe9354uf3cvgu5yew": "Sal Scale"
+  }
+}
