@@ -1,0 +1,1 @@
+A category for general concepts not explicit to any particular pack.
