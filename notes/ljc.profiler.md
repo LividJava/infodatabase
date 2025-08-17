@@ -2,7 +2,7 @@
 id: wi6q59zkivy4h3n4aq88r0o
 title: Spark Profiler
 desc: ''
-updated: 1709273702798
+updated: 1755080469193
 created: 1682131570817
 ---
 If you're experiencing lag in this modpack, this is a guide on how to pinpoint the lag (or at the very least help me help you.)
@@ -21,7 +21,7 @@ First up we need to start our Tick monitor. Achieve this by running `/sparkc tic
 After the Initial analysis completes you may find some issues about GC, you can ignore this for now. Java's Garbage collector is... Garbage... We are looking for a HUGE spike in ticks.
 
 ![](./assets/images/2023-04-21-23-33-13.png)
-This is a pretty Sizeable spike! so much so it kicked me from the server! (hence the dimmed screenshot)
+This is a pretty Sizeable spike! So much so it kicked me from the server! (hence the dimmed screenshot)
 
 Now we can run our profiler to try and find the actual source of the lag!
 
